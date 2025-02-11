@@ -4,3 +4,11 @@
 # nix build
 /result
 /result-*
+
+# go
+/.gobin
+/.gosrc
+/build
+*.test
+*.out
+/vendor
