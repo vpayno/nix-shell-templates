@@ -1,0 +1,153 @@
+# .editorconfig
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+# indent_size = 4
+# indent_style = space
+insert_final_newline = true
+max_line_length = 240
+# tab_width = 4
+trim_trailing_whitespace = true
+
+[*.nix]
+indent_size = 2
+indent_style = space
+tab_width = 2
+
+[{*.hcl,*.tf,*.tfvars,*.terraformrc,terraform.rc}]
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+[*.tfstate]
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+[*.{c,h,cpp,hpp}]
+indent_size = 2
+indent_style = space
+tab_width = 2
+
+[*.{vim,vimrc}]
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+[*.csv]
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+[*.tsv]
+indent_size = 4
+indent_style = tab
+tab_width = 4
+
+[*.adoc]
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+[{.gitconfig,.gitmodules,.git/config}]
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+[Makefile]
+indent_size = 4
+indent_style = tab
+tab_width = 4
+
+[*.{ebuild,sh,bash}]
+indent_size = 4
+indent_style = tab
+tab_width = 4
+
+[*.rb]
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+[*.pl]
+indent_size = 4
+indent_style = tab
+tab_width = 4
+
+[{*.go,go.mod,go.sum}]
+indent_size = 4
+indent_style = tab
+tab_width = 4
+
+[*.{rs,ld}]
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+[*.py]
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+[*.{md,txt,text}]
+indent_size = 4
+indent_style = tab
+tab_width = 4
+
+[*.{conf,ini}]
+indent_size = 4
+indent_style = space
+indent_size = 4
+
+[*.toml]
+indent_size = 4
+indent_style = space
+indent_size = 4
+
+[*.{json,jsonl}]
+indent_size = 2
+indent_style = space
+indent_size = 2
+
+[Dockerfile.*]
+indent_size = 2
+indent_style = space
+indent_size = 2
+
+[*.{yml,yaml}]
+indent_size = 2
+indent_style = space
+indent_size = 2
+
+[*.{html,xhtml,xml,svg}]
+indent_size = 2
+indent_style = space
+indent_size = 2
+
+[*.{css,less,sass,scss,vue}]
+indent_size = 4
+indent_style = space
+indent_size = 4
+
+[*.{js,jsx,ts,tsx}]
+indent_size = 4
+indent_style = space
+indent_size = 4
+
+[*.rb]
+indent_size = 2
+indent_style = space
+indent_size = 2
+
+[*.cue]
+indent_size = 4
+indent_style = tab
+indent_size = 4
+
+[*.gleam]
+indent_size = 2
+indent_style = space
+indent_size = 2
