@@ -12,3 +12,9 @@
 *.test
 *.out
 /vendor
+
+# rust
+/target
+/debug
+#Cargo.lock
+**/*.rs.bak
